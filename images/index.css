@@ -1,0 +1,1731 @@
+@font-face {
+  font-family: "Integral CF";
+  src: url("../fonts/Fontspring-DEMO-integralcf-bold.otf");
+}
+@font-face {
+  font-family: "Satoshi";
+  src: url("../fonts/Satoshi-Regular.otf");
+}
+@font-face {
+  font-family: "Satoshi-bold";
+  src: url("../fonts/Satoshi-Bold.otf");
+}
+@font-face {
+  font-family: "Satoshi-medium";
+  src: url("../fonts/Satoshi-Medium.otf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+header {
+  position: relative;
+  display: flex;
+  color: white;
+  background-color: black;
+  width: 100%;
+  height: 38px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.sign-link a {
+  color: white;
+  font-family: "Satoshi";
+}
+
+.close-icon {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  cursor: pointer;
+  right: 144px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1240px;
+  margin: 24px auto 0 auto;
+}
+
+.anvanum {
+  font-family: "Integral CF", sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+  color: black;
+  text-decoration: none;
+}
+
+.icons {
+  display: flex;
+  gap: 14px;
+  cursor: pointer;
+}
+
+nav {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.navigation a {
+  font-family: "Satoshi", sans-serif;
+  text-decoration: none;
+  color: black;
+}
+
+.navigation {
+  display: inline-flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.voronman-tex {
+  display: flex;
+  align-items: center;
+  background-color: #f0f0f0;
+  border-radius: 66px;
+  padding: 12px 16px;
+  gap: 12px;
+  width: 577px;
+}
+
+.voronman-tex input {
+  border: none;
+  outline: none;
+  background: transparent;
+  width: 100%;
+  font-family: "Satoshi", sans-serif;
+  font-size: 16px;
+}
+
+section {
+  position: relative;
+  background-image: url(Rectangle-2.png);
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+}
+
+.mec-tupik {
+  width: 1240px;
+  margin: 0 auto;
+  padding-top: 103px;
+}
+
+.dzax-mas {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.cucanishner {
+  display: flex;
+  gap: 30px;
+}
+
+.glxavor-1 {
+  display: flex;
+  font-family: "Integral CF", sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  width: 577px;
+  line-height: 64px;
+  height: 100%;
+}
+
+.p-grvacq {
+  font-family: "Satoshi";
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.6);
+  width: 545px;
+  height: 100%;
+  margin-top: 32px;
+}
+
+.button-number-one {
+  font-family: "Satoshi";
+  font-weight: 500;
+  width: 210px;
+  height: 52px;
+  border-radius: 62px;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  margin-top: 32px;
+}
+
+h2 {
+  font-family: "Satoshi-bold";
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.cucanishner {
+  width: 596px;
+  height: 74px;
+  gap: 32px;
+  margin-top: 48px;
+}
+
+.International-Brands {
+  font-family: "Satoshi";
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.High-Quality-Products {
+  font-family: "Satoshi";
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.Happy-Customers {
+  font-family: "Satoshi";
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.mec-astxik {
+  position: absolute;
+  width: 104px;
+  height: 104px;
+  right: 81px;
+  top: 86px;
+}
+
+.poqr-astxik {
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  right: 675px;
+  top: 320px;
+}
+
+.brendner {
+  display: flex;
+  width: 100%;
+  height: 122px;
+  background-color: black;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.NEW-ARRIVALS {
+  display: flex;
+  font-family: "Integral CF";
+  justify-content: center;
+  align-items: center;
+  width: 403px;
+  height: 58px;
+  font-size: 48px;
+  margin: 72px auto 0 auto;
+}
+
+.new-arrivels-clothes {
+  display: flex;
+  margin: 55px auto 0 auto;
+  gap: 20px;
+  width: 1240px;
+  justify-content: space-between;
+}
+
+.all-clothes {
+  display: flex;
+  margin: 55px auto 0 auto;
+  gap: 20px;
+  width: 1240px;
+  justify-content: space-between;
+}
+
+.T-SHIRT-1 {
+  font-family: "Satoshi-bold";
+  font-style: bold;
+  font-weight: 700;
+  margin-top: 16px;
+  font-size: 20px;
+}
+
+.astxer-1 {
+  display: inline-flex;
+  margin-top: 8px;
+  width: 150px;
+  height: 19px;
+  gap: 6px;
+}
+
+.price-1 {
+  font-family: "Satoshi-bold";
+  font-style: bold;
+  font-weight: 700;
+  font-size: 24px;
+  margin-top: 8px;
+}
+
+.skinny-jeans {
+  font-family: "Satoshi-bold";
+  font-style: bold;
+  font-weight: 700;
+  margin-top: 16px;
+  font-size: 20px;
+}
+
+.astxer-2 {
+  display: inline-flex;
+  margin-top: 8px;
+  width: 150px;
+  height: 19px;
+  gap: 6px;
+}
+
+.price-2 {
+  font-family: "Satoshi-bold";
+  font-style: bold;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.discount-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 13px;
+  margin-top: 8px;
+}
+
+.price-discount {
+  font-family: "Satoshi-bold";
+  font-style: bold;
+  font-weight: 700;
+  font-size: 24px;
+  width: 55px;
+  height: 32px;
+  color: rgba(0, 0, 0, 0.6);
+  text-decoration: line-through;
+}
+
+.discount-percant {
+  width: 58px;
+  height: 28px;
+  border-radius: 62px;
+  background-color: rgba(255, 51, 51, 0.1);
+  color: rgba(255, 51, 51, 1);
+  border: none;
+}
+
+.T-SHIRT-3 {
+  font-family: "Satoshi-bold";
+  font-style: bold;
+  font-weight: 700;
+  margin-top: 16px;
+  font-size: 20px;
+}
+
+.astxer-3 {
+  display: inline-flex;
+  margin-top: 8px;
+  width: 150px;
+  height: 19px;
+  gap: 6px;
+}
+
+.price-3 {
+  font-family: "Satoshi-bold";
+  font-style: bold;
+  font-weight: 700;
+  font-size: 24px;
+  margin-top: 8px;
+}
+
+.T-SHIRT-4 {
+  font-family: "Satoshi-bold";
+  font-style: bold;
+  font-weight: 700;
+  margin-top: 16px;
+  font-size: 20px;
+}
+
+.astxer-4 {
+  display: inline-flex;
+  margin-top: 8px;
+  width: 150px;
+  height: 19px;
+  gap: 6px;
+}
+
+.price-4 {
+  font-family: "Satoshi-bold";
+  font-style: bold;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.discount-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.price-discount {
+  font-family: "Satoshi-bold";
+  font-style: bold;
+  font-weight: 700;
+  font-size: 24px;
+  width: 55px;
+  height: 32px;
+  color: rgba(0, 0, 0, 0.6);
+  text-decoration: line-through;
+}
+
+.discount-percant {
+  width: 58px;
+  height: 28px;
+  border-radius: 62px;
+  background-color: rgba(255, 51, 51, 0.1);
+  color: rgba(255, 51, 51, 1);
+  border: none;
+}
+
+.view-all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(0, 0, 0, 1);
+  margin: 36px auto 0 auto;
+  width: 218px;
+  height: 52px;
+  border-radius: 62px;
+  border: 1px, rgba(0, 0, 0, 0.1);
+  font-family: "Satoshi-medium";
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.erkar-gic {
+  width: 1240px;
+  margin: 64px auto 0 auto;
+}
+
+.top-selling {
+  display: flex;
+  font-family: "Integral CF";
+  font-weight: 700;
+  justify-content: center;
+  align-items: center;
+  width: 346px;
+  height: 58px;
+  font-size: 48px;
+  margin: 64px auto 0 auto;
+}
+
+.all-clothes-2 {
+  display: flex;
+  margin: 64px auto 0 auto;
+  gap: 20px;
+  width: 1240px;
+  justify-content: space-between;
+}
+
+.T-SHIRT-5 {
+  font-family: "Satoshi-bold";
+  font-style: bold;
+  font-weight: 700;
+  margin-top: 16px;
+  font-size: 20px;
+}
+
+.astxer-5 {
+  display: inline-flex;
+  margin-top: 8px;
+  width: 150px;
+  height: 19px;
+  gap: 6px;
+}
+
+.price-5 {
+  font-family: "Satoshi-bold";
+  font-style: bold;
+  font-weight: 700;
+  font-size: 24px;
+  margin-top: 8px;
+}
+
+.discount-3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.price-discount-3 {
+  font-family: "Satoshi-bold";
+  font-style: bold;
+  font-weight: 700;
+  font-size: 24px;
+  width: 55px;
+  height: 32px;
+  color: rgba(0, 0, 0, 0.6);
+  text-decoration: line-through;
+}
+
+.discount-percant-3 {
+  width: 58px;
+  height: 28px;
+  border-radius: 62px;
+  background-color: rgba(255, 51, 51, 0.1);
+  color: rgba(255, 51, 51, 1);
+  border: none;
+}
+
+.T-SHIRT-6 {
+  font-family: "Satoshi-bold";
+  font-style: bold;
+  font-weight: 700;
+  margin-top: 16px;
+  font-size: 20px;
+}
+
+.astxer-6 {
+  display: inline-flex;
+  margin-top: 8px;
+  width: 150px;
+  height: 19px;
+  gap: 6px;
+}
+
+.price-6 {
+  font-family: "Satoshi-bold";
+  font-style: bold;
+  font-weight: 700;
+  font-size: 24px;
+  margin-top: 8px;
+}
+
+.short-jeans {
+  font-family: "Satoshi-bold";
+  font-style: bold;
+  font-weight: 700;
+  margin-top: 16px;
+  font-size: 20px;
+}
+
+.astxer-7 {
+  display: inline-flex;
+  margin-top: 8px;
+  width: 150px;
+  height: 19px;
+  gap: 6px;
+}
+
+.price-7 {
+  font-family: "Satoshi-bold";
+  font-style: bold;
+  font-weight: 700;
+  font-size: 24px;
+  margin-top: 8px;
+}
+
+.black-jeans {
+  font-family: "Satoshi-bold";
+  font-style: bold;
+  font-weight: 700;
+  margin-top: 16px;
+  font-size: 20px;
+}
+
+.astxer-8 {
+  display: inline-flex;
+  margin-top: 8px;
+  width: 150px;
+  height: 19px;
+  gap: 6px;
+}
+
+.price-8 {
+  font-family: "Satoshi-bold";
+  font-style: bold;
+  font-weight: 700;
+  font-size: 24px;
+  margin-top: 8px;
+}
+
+.view-all-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(0, 0, 0, 1);
+  margin: 36px auto 0 auto;
+  width: 218px;
+  height: 52px;
+  border-radius: 62px;
+  border: 1px, rgba(0, 0, 0, 0.1);
+  font-family: "Satoshi-medium";
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.browse-by-dress-style {
+  width: 1240px;
+  height: 866px;
+  background-color: rgba(240, 240, 240, 1);
+  margin: 80px auto 0 auto;
+  padding-top: 70px;
+  border-radius: 40px;
+}
+
+.browse-grvacq-1 {
+  width: 687px;
+  font-family: "Integral CF";
+  font-weight: 700;
+  font-size: 48px;
+  margin: 0 auto;
+}
+
+.nkarneri-shary {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 64px;
+  flex-wrap: wrap;
+}
+
+.happy-customers {
+  font-family: "Integral CF";
+  font-weight: 700;
+  font-style: bold;
+  font-size: 48px;
+}
+
+.glxamas {
+  width: 1240px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 80px auto 0 auto;
+}
+
+.slaqner-aj-dzax {
+  cursor: pointer;
+}
+
+.feedback-zone {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin: 40px auto 0 auto;
+  justify-content: center;
+  overflow-x: hidden;
+}
+
+.feedback-zone > div:first-child,
+.feedback-zone > div:last-child {
+  opacity: 0.3;
+  filter: blur(2px);
+}
+
+.Sarah-0 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-family: "Satoshi";
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+  width: 400px;
+  height: 240px;
+  border-radius: 20px;
+  border: 1px;
+  padding: 28px 32px;
+  flex-shrink: 0;
+}
+
+.review-astxer-0 {
+  display: flex;
+  gap: 5px;
+}
+
+.anun-nshan-0 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.name-0 {
+  font-family: "Satoshi-bold";
+  font-size: 20px;
+  font-weight: 700;
+  color: black;
+}
+
+.Sarah {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-family: "Satoshi";
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+  width: 400px;
+  height: 240px;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 28px 32px;
+  flex-shrink: 0;
+}
+
+.review-astxer-1 {
+  display: flex;
+  gap: 5px;
+}
+
+.anun-nshan-1 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.name-1 {
+  font-family: "Satoshi-bold";
+  font-size: 20px;
+  font-weight: 700;
+  color: black;
+}
+
+.Alex {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-family: "Satoshi";
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+  width: 400px;
+  height: 240px;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 28px 32px;
+  flex-shrink: 0;
+}
+
+.review-astxer-2 {
+  display: flex;
+  gap: 5px;
+}
+
+.anun-nshan-2 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.name-2 {
+  font-family: "Satoshi-bold";
+  font-size: 20px;
+  font-weight: 700;
+  color: black;
+}
+
+.James {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-family: "Satoshi";
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+  width: 400px;
+  height: 240px;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 28px 32px;
+  flex-shrink: 0;
+}
+
+.review-astxer-3 {
+  display: flex;
+  gap: 5px;
+}
+
+.anun-nshan-3 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.name-3 {
+  font-family: "Satoshi-bold";
+  font-size: 20px;
+  font-weight: 700;
+  color: black;
+}
+
+.James-5 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-family: "Satoshi";
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+  width: 400px;
+  height: 240px;
+  border-radius: 20px;
+  border: 1px;
+  padding: 28px 32px;
+  flex-shrink: 0;
+}
+
+.review-astxer-5 {
+  display: flex;
+  gap: 5px;
+}
+
+.anun-nshan-5 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.name-5 {
+  font-family: "Satoshi-bold";
+  font-size: 20px;
+  font-weight: 700;
+  color: black;
+}
+
+.email-enter {
+  width: 1240px;
+  height: 180px;
+  border-radius: 20px;
+  padding: 36px 64px;
+  background-color: black;
+  margin: 123px auto 0 auto;
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: space-between;
+  position: relative;
+  z-index: 10;
+}
+
+.stay {
+  width: 551px;
+}
+
+.stay p {
+  font-family: "Integral CF", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 45px;
+}
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  width: 349px;
+  height: 48px;
+  border-radius: 62px;
+  padding: 12px 16px;
+  gap: 12px;
+}
+
+.email {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.email input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-family: "Satoshi", sans-serif;
+  font-size: 16px;
+}
+
+.input-wrapper img {
+  width: 24px;
+  height: 24px;
+}
+
+.subscribe {
+  border-radius: 62px;
+  width: 349px;
+  height: 48px;
+  border: none;
+  font-family: "Satoshi-medium";
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.verjnakan-footer {
+  width: 100%;
+  background-color: #f0f0f0;
+  padding-top: 140px;
+  padding-bottom: 50px;
+  margin-top: -90px;
+  position: relative;
+  z-index: 1;
+}
+
+.resursner {
+  width: 1240px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.res-shop-co h1 {
+  width: 167px;
+  font-family: "Integral CF";
+  font-size: 33px;
+  font-weight: 700;
+}
+
+.res-shop-co p {
+  margin-top: 25px;
+  width: 248px;
+  font-family: "Satoshi";
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.logoner {
+  display: flex;
+  margin-top: 35px;
+  gap: 12px;
+  cursor: pointer;
+}
+
+.Company h1 {
+  font-family: "Satoshi-medium";
+  font-weight: 500;
+  width: 98px;
+  font-size: 16px;
+  letter-spacing: 3px;
+}
+
+.footer-links-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 26px;
+}
+
+.footer-links-1 a {
+  font-family: "Satoshi", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+  text-decoration: none;
+}
+
+.help h1 {
+  font-family: "Satoshi-medium";
+  font-weight: 500;
+  width: 98px;
+  font-size: 16px;
+  letter-spacing: 3px;
+}
+
+.footer-links-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 26px;
+}
+
+.footer-links-2 a {
+  font-family: "Satoshi", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+  text-decoration: none;
+}
+
+.faq h1 {
+  font-family: "Satoshi-medium";
+  font-weight: 500;
+  width: 98px;
+  font-size: 16px;
+  letter-spacing: 3px;
+}
+
+.footer-links-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 26px;
+}
+
+.footer-links-3 a {
+  font-family: "Satoshi", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+  text-decoration: none;
+}
+.resources h1 {
+  font-family: "Satoshi-medium";
+  font-weight: 500;
+  width: 98px;
+  font-size: 16px;
+  letter-spacing: 3px;
+}
+
+.footer-links-4 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 26px;
+}
+
+.footer-links-4 a {
+  font-family: "Satoshi", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+  text-decoration: none;
+}
+
+.erkar-gic-2 {
+  display: flex;
+  width: 1240px;
+  margin: 50px auto 25px auto;
+}
+
+.payments {
+  width: 1240px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.payments p {
+  width: 269px;
+  font-family: "Satoshi";
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.left-team,
+.right-team {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.mobile-menu-icon,
+.mobile-search-icon {
+  display: none;
+}
+
+.poqr-gcik {
+  display: none;
+}
+
+.mec-gic {
+  display: block;
+}
+
+.mec-astxik-mobile {
+  display: none;
+}
+
+.poqr-astxik-mobile {
+  display: none;
+}
+
+.brendner-mobile {
+  display: none;
+}
+
+.mobile-clothes-1 {
+  display: none;
+}
+
+.erkar-gic-mobile {
+  display: none;
+}
+
+.mobile-clothes-2 {
+  display: none;
+}
+
+.browse-by-dress-style-mobile {
+  display: none;
+}
+
+.erkar-gic-2-mobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  body {
+    min-width: 100%;
+    overflow-x: hidden;
+  }
+
+  header {
+    font-size: 12px;
+    width: 100%;
+  }
+
+  .left-team .anvanum {
+    font-size: 25px;
+  }
+
+  .mobile-menu-icon {
+    width: 24px;
+    height: 24px;
+    margin-top: 7px;
+  }
+
+  nav {
+    width: 100%;
+    padding: 0 16px;
+    margin: 24px 0;
+  }
+
+  .close-icon {
+    display: none;
+  }
+
+  .navigation,
+  .voronman-tex {
+    display: none;
+  }
+
+  .mobile-menu-icon,
+  .mobile-search-icon {
+    display: block;
+  }
+
+  section {
+    width: 100%;
+    height: auto;
+    background-color: #f2f0f1;
+    background-image: url(mec-nkar-mobile.png);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: 125% auto;
+    padding-bottom: 140vw;
+  }
+
+  .glxavor-1 {
+    width: 315px;
+    font-size: 36px;
+    line-height: 34px;
+  }
+
+  .mec-tupik {
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 20px;
+  }
+
+  .p-grvacq {
+    font-size: 14px;
+    line-height: 20px;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .button-number-one {
+    width: 100%;
+    margin-top: 24px;
+    height: 52px;
+    border-radius: 62px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  .cucanishner {
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px 27px;
+  }
+
+  .cucanish-verjin {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mec-gic {
+    display: none;
+  }
+
+  .poqr-gcik {
+    display: block;
+  }
+
+  .International-Brands {
+    font-size: 12px;
+  }
+  .High-Quality-Products {
+    font-size: 12px;
+  }
+  .Happy-Customers {
+    font-size: 12px;
+  }
+
+  .cucanishner .verjin-gic {
+    display: none;
+  }
+
+  .mec-astxik {
+    display: none;
+  }
+
+  .poqr-astxik {
+    display: none;
+  }
+
+  .mec-astxik-mobile {
+    display: block;
+    position: absolute;
+    top: 450px;
+    right: 21px;
+  }
+
+  .poqr-astxik-mobile {
+    display: block;
+    position: absolute;
+    top: 600px;
+    left: 18px;
+  }
+
+  .brendner {
+    display: none;
+  }
+
+  .brendner-mobile {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 146px;
+    background-color: black;
+    justify-content: center;
+    gap: 22px 34px;
+    align-content: center;
+  }
+
+  .NEW-ARRIVALS {
+    font-size: 32px;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .all-clothes {
+    display: none;
+  }
+
+  .new-arrivels-clothes {
+    display: none;
+  }
+
+  .mobile-clothes-1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+    padding: 0 16px;
+    gap: 16px;
+    width: 100%;
+  }
+
+  .T-SHIRT-1-mobile {
+    font-family: "Satoshi-bold";
+    overflow-x: auto;
+    font-style: bold;
+    font-weight: 700;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+
+  .astxer-1-mobile {
+    display: inline-flex;
+    margin-top: 4px;
+    width: 127px;
+    height: 16px;
+    gap: 6px;
+  }
+
+  .price-1-mobile {
+    font-family: "Satoshi-bold";
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 4px;
+  }
+
+  .skinny-jeans-mobile {
+    font-family: "Satoshi-bold";
+    font-style: bold;
+    font-weight: 700;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+
+  .product-img-mobile {
+    width: 198px;
+    height: 45vw;
+    object-fit: cover;
+    border-radius: 20px;
+    background-color: #f0eeed;
+    flex-shrink: 0;
+  }
+
+  .astxer-2-mobile {
+    display: inline-flex;
+    margin-top: 4px;
+    width: 106px;
+    height: 16px;
+    gap: 4px;
+  }
+
+  .price-2-mobile {
+    font-family: "Satoshi-bold";
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  .discount-1-mobile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 7px;
+    margin-top: 4px;
+  }
+
+  .price-discount-mobile {
+    font-family: "Satoshi-bold";
+    font-weight: 700;
+    font-size: 20px;
+    width: 51px;
+    height: 27px;
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: line-through;
+  }
+
+  .discount-percant-mobile {
+    width: 42px;
+    height: 20px;
+    border-radius: 62px;
+    background-color: rgba(255, 51, 51, 0.1);
+    color: rgba(255, 51, 51, 1);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    font-family: "Satoshi-medium";
+  }
+
+  .view-all-1 .view-all {
+    width: 90%;
+    margin: 24px auto 0 auto;
+    height: 46px;
+    border-radius: 62px;
+    background-color: white;
+    border: 1px rgba(0, 0, 0, 0.1) solid;
+  }
+
+  .erkar-gic {
+    display: none;
+  }
+
+  .erkar-gic-mobile {
+    display: flex;
+    margin: 40px auto 0 auto;
+    justify-content: center;
+  }
+
+  .top-selling {
+    font-size: 32px;
+    margin: 40px auto 0 auto;
+  }
+
+  .all-clothes-2 {
+    display: none;
+  }
+
+  .mobile-clothes-2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+    padding: 0 16px;
+    gap: 16px;
+    width: 100%;
+  }
+
+  .product-img-mobile-2 {
+    width: 198px;
+    height: 45vw;
+    object-fit: cover;
+    border-radius: 20px;
+    background-color: #f0eeed;
+    flex-shrink: 0;
+  }
+
+  .T-SHIRT-3-mobile {
+    font-family: "Satoshi-bold";
+    overflow-x: auto;
+    font-style: bold;
+    font-weight: 700;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+
+  .astxer-3-mobile {
+    display: inline-flex;
+    margin-top: 4px;
+    width: 127px;
+    height: 16px;
+    gap: 6px;
+  }
+
+  .price-3-mobile {
+    font-family: "Satoshi-bold";
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  .discount-3-mobile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 7px;
+    margin-top: 4px;
+  }
+
+  .price-discount-mobile-3 {
+    font-family: "Satoshi-bold";
+    font-weight: 700;
+    font-size: 20px;
+    width: 51px;
+    height: 27px;
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: line-through;
+  }
+
+  .discount-percant-mobile-3 {
+    width: 42px;
+    height: 20px;
+    border-radius: 62px;
+    background-color: rgba(255, 51, 51, 0.1);
+    color: rgba(255, 51, 51, 1);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    font-family: "Satoshi-medium";
+  }
+
+  .T-SHIRT-4-mobile {
+    font-family: "Satoshi-bold";
+    overflow-x: auto;
+    font-style: bold;
+    font-weight: 700;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+
+  .astxer-4-mobile {
+    display: inline-flex;
+    margin-top: 4px;
+    width: 127px;
+    height: 16px;
+    gap: 6px;
+  }
+
+  .price-4-mobile {
+    font-family: "Satoshi-bold";
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 4px;
+  }
+
+  .view-all-2-button .view-all-2 {
+    width: 90%;
+    margin: 24px auto 0 auto;
+    height: 46px;
+    border-radius: 62px;
+    background-color: white;
+    border: 1px rgba(0, 0, 0, 0.1) solid;
+  }
+
+  .browse-by-dress-style {
+    display: none;
+  }
+
+  .browse-by-dress-style-mobile {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 975px;
+    background-color: rgba(240, 240, 240, 1);
+    margin: 50px auto 0 auto;
+    padding-top: 40px;
+    border-radius: 40px;
+  }
+
+  .browse-grvacq-1-mobile {
+    width: 246px;
+    height: 72px;
+    font-family: "Integral CF";
+    font-weight: 700;
+    font-size: 32px;
+    margin: 0 auto;
+  }
+
+  .nkarneri-shary-mobile {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 24px;
+    flex-wrap: nowrap;
+  }
+
+  .glxamas {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto 0 auto;
+  }
+
+  .happy-customers {
+    width: 286px;
+    height: 72px;
+    font-size: 32px;
+  }
+
+  .feedback-zone {
+    margin: 24px auto 0 auto;
+  }
+
+  .Sarah-0 {
+    display: none;
+  }
+  .Alex {
+    display: none;
+  }
+  .James {
+    display: none;
+  }
+  .James-5 {
+    display: none;
+  }
+
+  .email {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 12px;
+  }
+
+  .email-enter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    height: auto;
+    min-height: 293px;
+    padding: 32px 24px;
+    margin: 50px auto 0 auto;
+    background-color: black;
+    border-radius: 20px;
+  }
+
+  .stay {
+    width: 100%;
+  }
+
+  .stay p {
+    font-family: "Integral CF", sans-serif;
+    text-align: left;
+    width: 297px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 35px;
+    color: white;
+    margin: 0 0 24px 0;
+  }
+
+  .input-wrapper {
+    width: 100%;
+  }
+
+  .subscribe {
+    width: 100%;
+    background-color: white;
+  }
+
+  footer {
+    padding-left: 17px;
+  }
+
+  .verjnakan-footer {
+    width: 100%;
+    background-color: #f0f0f0;
+    padding-top: 110px;
+    padding-bottom: 50px;
+    margin-top: -90px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .resursner {
+    width: 90%;
+    flex-direction: column;
+  }
+
+  .res-shop-co h1 {
+    width: 144px;
+    font-size: 29px;
+  }
+
+  .res-shop-co p {
+    margin-top: 14px;
+    width: 357px;
+    font-size: 14px;
+  }
+
+  .logoner {
+    display: flex;
+    margin-top: 20px;
+  }
+
+  .footer-links-for-mobile {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+  }
+
+  .Company h1 {
+    display: flex;
+    margin-top: 24px;
+    width: 88px;
+    font-size: 14px;
+  }
+
+  .footer-links-1 {
+    gap: 16px;
+    margin-top: 16px;
+  }
+
+  .footer-links-1 a {
+    font-size: 14px;
+  }
+
+  .help h1 {
+    display: flex;
+    margin-top: 24px;
+    width: 88px;
+    font-size: 14px;
+  }
+
+  .footer-links-2 {
+    gap: 16px;
+    margin-top: 16px;
+  }
+
+  .footer-links-2 a {
+    font-size: 14px;
+  }
+
+  .faq h1 {
+    display: flex;
+    margin-top: 24px;
+    width: 88px;
+    font-size: 14px;
+  }
+
+  .footer-links-3 {
+    gap: 16px;
+    margin-top: 16px;
+  }
+
+  .footer-links-3 a {
+    font-size: 14px;
+  }
+  .resources h1 {
+    display: flex;
+    margin-top: 24px;
+    width: 88px;
+    font-size: 14px;
+  }
+
+  .footer-links-4 {
+    gap: 16px;
+    margin-top: 16px;
+  }
+
+  .footer-links-4 a {
+    font-size: 14px;
+  }
+
+  .erkar-gic-2 {
+    display: none;
+  }
+
+  .erkar-gic-2-mobile {
+    display: flex;
+    width: 100%;
+    padding: 0 17px;
+    margin: 30px auto 16px auto;
+  }
+
+  .payments {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .payments p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+}
